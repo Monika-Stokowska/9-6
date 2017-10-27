@@ -1,7 +1,8 @@
 document.body.button.addEventListener('click', addElementItem, false);
 function addElementItem() {
-    var navigation = document.getElementById('ul');
+    var list = document.getElementById('list');
+    var add = document.getElementById('button');
     var newElement = document.createElement('li');
-    newElement.innerHTML='item 1';
-    navigation.appendChild(newElement);
+    newElement.innerHTML='item';
+    list.appendChild(newElement);
 } 
