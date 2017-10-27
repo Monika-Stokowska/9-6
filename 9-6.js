@@ -4,4 +4,4 @@ function addElementItem() {
     var newElement = document.createElement('li');
     newElement.innerHTML='item 1';
     navigation.appendChild(newElement);
-}
+} 
